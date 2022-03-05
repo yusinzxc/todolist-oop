@@ -42,7 +42,7 @@
               </tr>
             </thead>
             <tbody>
-              <?php readTask(false) ?> 
+              <?php readPendingTask(false) ?> 
             </tbody>
           </table>
           <table class="table table-striped" >
@@ -53,7 +53,7 @@
               </tr>
             </thead>
             <tbody style="opacity: 70%;">
-              <?php readTask(true) ?> 
+              <?php readPendingTask(true) ?> 
             </tbody>
           </table>
         </div>

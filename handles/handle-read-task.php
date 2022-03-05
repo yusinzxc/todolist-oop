@@ -1,5 +1,5 @@
 <?php
-  function readTask($status){
+  function readPendingTask($status){
     $create = new Read($status);
     if($status){
       $tasks = $create->readTask();
